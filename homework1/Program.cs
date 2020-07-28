@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework1
+namespace Homework1        // program mający na celu pobranie informacji od użytkownika w oknie konsoli a następnie wyświetlenie informacji zwrotnej na podstawie tych danych
 {
     class Program
     {
