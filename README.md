@@ -1,4 +1,1 @@
 # homework1
-
-
-cholera
