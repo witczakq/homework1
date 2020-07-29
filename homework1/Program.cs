@@ -13,7 +13,6 @@ namespace Homework1        // program mający na celu pobranie informacji od uż
     {
         static void Main(string[] args)
         {
-
             try
             {
                 {
@@ -33,8 +32,8 @@ namespace Homework1        // program mający na celu pobranie informacji od uż
                     var born = Console.ReadLine();
 
                     Console.WriteLine("Dziękuję za podanie informacji.");
-                    var rokurodzin = new DateTime(year, month, day);
-                    var century = AgeCalculate(rokurodzin);
+                    var dateBorn = new DateTime(year, month, day);
+                    var century = AgeCalculate(dateBorn);
 
                     Console.WriteLine($"Podsumowując:\nNazywas się {name}, masz ukończone {century} lat oraz Twoje miejsce urodzenia to: {born}.");
                 }
